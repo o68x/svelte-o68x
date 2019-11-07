@@ -11,7 +11,10 @@ body {
 	box-sizing: border-box;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
-
+.navbar {
+	background-color: greenyellow;
+	color: red;
+}
 a {
 	color: rgb(0,100,200);
 	text-decoration: none;

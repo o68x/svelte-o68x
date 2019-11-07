@@ -1,4 +1,5 @@
 import svelte from 'rollup-plugin-svelte';
+import sveltePreprocess from 'svelte-preprocess';
 import resolve from 'rollup-plugin-node-resolve';
 import commonjs from 'rollup-plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
@@ -6,6 +7,16 @@ import { terser } from 'rollup-plugin-terser';
 import rollup_start_dev from './rollup_start_dev';
 
 const production = !process.env.ROLLUP_WATCH;
+
+// TODO: https://medium.com/@sean_27490/svelte-sapper-with-sass-271fff662da9
+const preprocess = sveltePreprocess({
+  scss: {
+    includePaths: ['src'],
+  },
+  postcss: {
+    plugins: [require('autoprefixer')],
+  },
+});
 
 export default {
 	input: 'src/main.js',
@@ -23,7 +34,8 @@ export default {
 			// a separate file — better for performance
 			css: css => {
 				css.write('public/bundle.css');
-			}
+			},
+			preprocess, // <-- ADD THIS LINE
 		}),
 
 		// If you have external dependencies installed from
