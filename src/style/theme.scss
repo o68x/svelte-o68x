@@ -1,7 +1,12 @@
 // theme.scss
-$main-color: rgba(69, 28, 134, 0.61);
+$main-color: rgba(69, 28, 134, 0.767);
 $site-width: 1200px;
 
 h1 {
   color: $main-color;
+}
+
+.navbar {
+  background-color: lightgoldenrodyellow;
+  color: red;
 }

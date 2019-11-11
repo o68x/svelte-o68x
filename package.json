@@ -1,6 +1,7 @@
 {
   "name": "svelte-app",
   "version": "1.0.0",
+  "license": "openbar",
   "devDependencies": {
     "autoprefixer": "^9.7.1",
     "node-sass": "^4.13.0",
