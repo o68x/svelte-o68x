@@ -2,12 +2,16 @@
   export let name = "website";
 </script>
 
-<div class="pure-menu pure-menu-horizontal">
-    <a href="#" class="pure-menu-heading pure-menu-link">BRAND</a>
-    <ul class="pure-menu-list">
-        <li class="pure-menu-item"><a href="#" class="pure-menu-link">News</a></li>
-        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Sports</a></li>
-        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Finance</a></li>
-    </ul>
-    This is what?
-</div>
+<header class="navbar">
+  <section class="navbar-section">
+    <a href="#" class="navbar-brand mr-2">{name}</a>
+    <a class="btn btn-link active" href="#">News</a>
+    <a class="btn btn-link" href="#">Sports</a>
+    <a class="btn btn-link disabled" href="#">Finance</a>
+  </section>
+  <section class="navbar-section">
+    <span>This is what?</span>
+    <span>No icons here! <i class="icon icon-arrow-up"></i></span>
+  </section>
+</header>
+

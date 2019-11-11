@@ -1,5 +1,6 @@
 <svelte:head>
-  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </svelte:head>
 
 <script>
@@ -11,9 +12,7 @@
   @import  "./style/global.scss";
 </style>
 
-<div class="navbar">
-  <Navbar {name}/>
-</div>
+<Navbar {name}/>
 
 <h1>This is the {name.toUpperCase()} (aka Olivier Cardinaux) interweb!</h1>
 
