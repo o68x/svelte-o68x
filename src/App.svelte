@@ -1,8 +1,3 @@
-<svelte:head>
-  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-</svelte:head>
-
 <script>
   import Navbar from './components/navbar.svelte';
   export let name;

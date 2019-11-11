@@ -15,7 +15,8 @@
     "svelte-preprocess": "^3.2.5"
   },
   "dependencies": {
-    "sirv-cli": "^0.4.4"
+    "sirv-cli": "^0.4.4",
+    "spectre.css": "^0.5.8"
   },
   "scripts": {
     "build": "rollup -c",
