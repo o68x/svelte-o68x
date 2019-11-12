@@ -1,6 +1,8 @@
 <script>
   import Navbar from './components/navbar.svelte';
+  import Blob from './components/blob.svelte';
   import Hero from './components/hero.svelte';
+  import Footer from './components/footer.svelte';
   export let name;
 </script>
 
@@ -8,6 +10,7 @@
   @import "./style/global.scss";
 </style>
 
+  <Blob />
 <section class="about">
   <Navbar {name} />
 
@@ -31,8 +34,6 @@
 
   <Hero />
   </section>
-  <section>
-    <p>
-      More stuff…
-    </p>
+  <section class="footer">
+  <Footer />
   </section>

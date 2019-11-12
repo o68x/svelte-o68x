@@ -37,7 +37,6 @@
 </style>
 
 <div class="grid-68">
-   <!-- TODO: Drop "O" and "x" ? -->
   <span class="letter highlight">O</span>
   <span class="letter">l</span>
   <span class="letter">i</span>
@@ -56,7 +55,7 @@
   <span class="letter">u</span>
   <span class="letter highlight">x</span>
 
-  <span class="number"></span>
+  <span class="number highlight">O</span>
   <span class="number">1</span>
   <span class="number">2</span>
   <span class="number">3</span>
@@ -72,5 +71,5 @@
   <span class="number">3</span>
   <span class="number">2</span>
   <span class="number">1</span>
-  <span class="number"></span>
+  <span class="number highlight">x</span>
 </div>
