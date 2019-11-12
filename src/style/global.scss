@@ -1,7 +1,8 @@
 // global.scss
-$primary-color: rgb(97, 165, 97);
-
+$primary-color:  rgb(93, 114, 58);
+$site-width: 1200px;
 @import "node_modules/spectre.css/src/spectre";
+
 
 * {
   box-sizing: border-box;
@@ -10,9 +11,6 @@ html, body {
   margin: 0;
   padding: 0px;
 }
-// theme.scss
-$main-color: rgba(69, 28, 134, 0.767);
-$site-width: 1200px;
 
 h1 {
   color: $primary-color-dark;
@@ -20,5 +18,12 @@ h1 {
 
 .navbar {
   background-color: $light-color;
-  color: #e85600;
+  color: hsl(22, 85%, 35%);
+}
+
+.about {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto 1fr auto;
 }
