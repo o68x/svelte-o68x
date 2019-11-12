@@ -11,14 +11,18 @@
     span {
       text-align: center;
       &.letter {
+        font-size: 12pt;
+        @media screen and (min-width: 600px) {
+          font-size: 3.1875vw;
+        }
         color: $primary-color;
         opacity: 0.5;
-        // TODO: add calc() to get more sensible sizes
-        // https://css-tricks.com/fun-viewport-units/#article-header-id-1
-        font-size: 3.1875vw;
       }
       &.number {
-        font-size: 1.59375vw;
+        font-size: 8pt;
+        @media screen and (min-width: 600px) {
+          font-size: 1.59375vw;
+        }
         color: $primary-color;
         opacity: 0.3;
         margin-top: -0.8em;
