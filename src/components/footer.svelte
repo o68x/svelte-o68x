@@ -7,6 +7,7 @@
   .footer {
     background-color: darken($primary-color, 20%);
     color: lighten($primary-color, 25%);
+    height: 100px;
   }
 </style>
 

@@ -8,6 +8,7 @@
     display: grid;
     grid-template-columns: repeat(17, auto [col-start]);
     grid-template-rows: auto, 20%;
+    background-color: #ffffff;
     span {
       text-align: center;
       &.letter {

@@ -13,6 +13,14 @@ html, body {
   padding: 0px;
 }
 
+main {
+  padding-top: 100px;
+  section {
+    height: 60vh;
+  }
+}
+
+
 h1 {
   color: $primary-color-dark;
 }
@@ -20,11 +28,4 @@ h1 {
 .navbar {
   background-color: $light-color;
   color: hsl(22, 85%, 35%);
-}
-
-.about {
-  height: 100vh;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto 1fr auto;
 }
