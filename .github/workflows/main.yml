@@ -1,0 +1,13 @@
+name: CP2DOCS
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: copy to docs
+      run: cp -R public docs
