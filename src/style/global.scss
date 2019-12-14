@@ -1,9 +1,31 @@
 // global.scss
-@import "./theme.scss";
+$primary-color: hsl(83, 33%, 34%);
+$footer-color: hsl(83, 33%, 20%);
+$site-width: 1200px;
+@import "node_modules/spectre.css/src/spectre";
+
+
 * {
   box-sizing: border-box;
 }
 html, body {
   margin: 0;
   padding: 0px;
+}
+
+main {
+  padding-top: 100px;
+  section {
+    height: 60vh;
+  }
+}
+
+
+h1 {
+  color: $primary-color-dark;
+}
+
+.navbar {
+  background-color: $light-color;
+  color: hsl(22, 85%, 35%);
 }

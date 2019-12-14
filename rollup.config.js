@@ -8,7 +8,7 @@ import rollup_start_dev from './rollup_start_dev';
 
 const production = !process.env.ROLLUP_WATCH;
 
-// TODO: https://medium.com/@sean_27490/svelte-sapper-with-sass-271fff662da9
+// REF: https://medium.com/@sean_27490/svelte-sapper-with-sass-271fff662da9
 const preprocess = sveltePreprocess({
   scss: {
     includePaths: ['src'],
