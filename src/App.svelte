@@ -25,9 +25,7 @@
   <section id="projects">
 
     <div>
-      <h1>
-        This is a O68x (aka Olivier Cardinaux) interweb!
-      </h1>
+      <h1>This is a O68x (aka Olivier Cardinaux) interweb!</h1>
 
       <p>Here we will have a homepage, a about (resume) and a projects page.</p>
 
@@ -42,9 +40,7 @@
   <section id="cv">
 
     <div>
-      <h1>
-        This resumeee!
-      </h1>
+      <h1>This resumeee!</h1>
 
       <p>Here we will have a homepage, a about (resume) and a projects page.</p>
 
@@ -59,9 +55,7 @@
   <section id="lampadaires">
 
     <div>
-      <h1>
-        This lampadeaire!
-      </h1>
+      <h1>This lampadeaire!</h1>
 
       <p>Here we will have a homepage, a about (resume) and a projects page.</p>
 

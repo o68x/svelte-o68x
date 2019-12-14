@@ -1,8 +1,9 @@
 <script>
+
 </script>
 
 <style lang="scss" global>
-  @import './style/global.scss';
+  @import "./style/global.scss";
 
   .footer {
     background-color: darken($primary-color, 20%);

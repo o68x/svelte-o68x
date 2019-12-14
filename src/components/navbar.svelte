@@ -1,11 +1,11 @@
 <script>
-  import Icon from 'svelte-awesome';
+  import Icon from "svelte-awesome";
   import { beer, camera } from "svelte-awesome/icons";
 </script>
 
 <style lang="scss">
   .navbar {
-    background: linear-gradient( rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
   }
 </style>
 
@@ -19,7 +19,7 @@
     <a class="btn btn-link" href="#lampadaires">lampadaires</a>
   </section>
   <section class="navbar-section">
-      <Icon data={beer} />
-      <Icon data={camera} />
+    <Icon data={beer} />
+    <Icon data={camera} />
   </section>
 </nav>

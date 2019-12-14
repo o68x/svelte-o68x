@@ -1,4 +1,5 @@
 <script>
+
 </script>
 
 <style lang="scss">
@@ -45,7 +46,7 @@
   <span class="letter">i</span>
   <span class="letter">e</span>
   <span class="letter">r</span>
-  <span class="letter"></span>
+  <span class="letter" />
   <span class="letter">C</span>
   <span class="letter">a</span>
   <span class="letter">r</span>
@@ -63,7 +64,7 @@
   <span class="number">4</span>
   <span class="number">5</span>
   <span class="number highlight">6</span>
-  <span class="number">&nbsp;</span>
+  <span class="number" />
   <span class="number highlight">8</span>
   <span class="number">7</span>
   <span class="number">6</span>
