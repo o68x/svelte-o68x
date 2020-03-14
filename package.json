@@ -3,18 +3,18 @@
   "version": "1.0.0",
   "license": "openbar",
   "devDependencies": {
-    "autoprefixer": "^9.7.1",
-    "node-sass": "^4.13.0",
-    "rollup": "^1.27.0",
+    "autoprefixer": "^9.7.4",
+    "node-sass": "^4.13.1",
+    "rollup": "^1.32.1",
     "rollup-plugin-commonjs": "^10.0.0",
     "rollup-plugin-livereload": "^1.0.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-svelte": "^5.1.1",
-    "rollup-plugin-terser": "^5.1.2",
-    "svelte": "^3.14.1",
-    "svelte-awesome": "^2.2.0",
+    "rollup-plugin-terser": "^5.3.0",
+    "svelte": "^3.19.2",
+    "svelte-awesome": "^2.2.1",
     "svelte-headroom": "^2.2.1",
-    "svelte-preprocess": "^3.2.6"
+    "svelte-preprocess": "^3.5.0"
   },
   "dependencies": {
     "sirv-cli": "^0.4.4",
